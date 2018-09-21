@@ -1,0 +1,27 @@
+{
+  "name": "inversifyjs-generator",
+  "version": "1.0.0",
+  "description": "inversifyjs 기본 소스코드 생성 및  특정 typeorm 관련 entity  혹은 mvc 관련 중복코드를 자동으로 생성을 위한 cli",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "inv": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taehyoung/inversifyjs-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taehyoung/inversifyjs-generator/issues"
+  },
+  "homepage": "https://github.com/taehyoung/inversifyjs-generator#readme",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.8.2"
+  }
+}
